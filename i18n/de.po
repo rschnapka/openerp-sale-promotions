@@ -9,416 +9,417 @@ msgstr ""
 "POT-Creation-Date: 2011-03-14 14:53+0000\n"
 "PO-Revision-Date: 2015-04-04 11:14+0100\n"
 "Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
-"Language-Team: \n"
+"Language-Team: GoLive <rs@techno-flex.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
+"Language: de\n"
 
 #. module: sale_promotions
 #: field:promos.rules,name:0
 msgid "Promo Name"
-msgstr ""
+msgstr "Werbeaktionsbezeichnung"
 
 #. module: sale_promotions
 #: view:promos.rules:0
 msgid "expressions are"
-msgstr ""
+msgstr "Ausdrücke sind"
 
 #. module: sale_promotions
 #: field:promos.rules.conditions.exps,stop_further:0
 msgid "Stop further checks"
-msgstr ""
+msgstr "Weitere Prüfungen unterbinden"
 
 #. module: sale_promotions
 #: field:promos.rules,uses_per_coupon:0
 msgid "Uses per Coupon"
-msgstr ""
+msgstr "Verwendungen je Kupon"
 
 #. module: sale_promotions
 #: field:promos.rules,coupon_used:0
 msgid "Number of Coupon Uses"
-msgstr ""
+msgstr "Anzahl Kuponnutzungen"
 
 #. module: sale_promotions
 #: field:promos.rules.actions,product_code:0
 msgid "Product Code"
-msgstr ""
+msgstr "Artikelnummer"
 
 #. module: sale_promotions
 #: model:ir.actions.act_window,name:sale_promotions.act_promotion_rules
 #: model:ir.model,name:sale_promotions.model_promos_rules
 #: model:ir.ui.menu,name:sale_promotions.promos
 msgid "Promotion Rules"
-msgstr ""
+msgstr "Werbeaktionsregeln"
 
 #. module: sale_promotions
 #: field:sale.order,coupon_code:0
 msgid "Promo Coupon Code"
-msgstr ""
+msgstr "Werbeaktions-Kupon-Nummer"
 
 #. module: sale_promotions
 #: view:promos.rules:0
 msgid "Applicable Period"
-msgstr ""
+msgstr "Zutreffende Periode"
 
 #. module: sale_promotions
 #: field:promos.rules,stop_further:0
 msgid "Stop Checks"
-msgstr ""
+msgstr "Prüfungen beenden"
 
 #. module: sale_promotions
 #: model:ir.model,name:sale_promotions.model_promos_rules_conditions_exps
 msgid "Expressions for conditions"
-msgstr ""
+msgstr "Ausdrücke für Bedingungen"
 
 #. module: sale_promotions
 #: field:promos.rules,to_date:0
 msgid "To Date"
-msgstr ""
+msgstr "bis Datum"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:62
 #: selection:promos.rules.conditions.exps,comparator:0
 #, python-format
 msgid "not equal to"
-msgstr ""
+msgstr "ist nicht gleich"
 
 #. module: sale_promotions
 #: field:promos.rules.actions,arguments:0
 msgid "Arguments"
-msgstr ""
+msgstr "Argumente"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:64
 #: selection:promos.rules.conditions.exps,comparator:0
 #, python-format
 msgid "greater than or equal to"
-msgstr ""
+msgstr "ist größer oder gleich"
 
 #. module: sale_promotions
 #: field:promos.rules,expected_logic_result:0
 msgid "Output"
-msgstr ""
+msgstr "Ausgabe"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Product UnitPrice combination"
-msgstr ""
+msgstr "Kombination aus Produkt-Einzelpreisen"
 
 #. module: sale_promotions
 #: help:promos.rules,stop_further:0
 msgid "Stops further promotions being checked"
-msgstr ""
+msgstr "Beendet das Prüfen auf Werbeaktionen"
 
 #. module: sale_promotions
 #: model:ir.model,name:sale_promotions.model_promos_rules_actions
 msgid "Promotions actions"
-msgstr ""
+msgstr "Werbeaktions-Maßnahmen"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Product Discount combination"
-msgstr ""
+msgstr "Kombination aus Produktrabatten"
 
 #. module: sale_promotions
 #: view:promos.rules:0
 msgid "Conditions"
-msgstr ""
+msgstr "Bedingungen"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:75
 #: selection:promos.rules.actions,action_type:0
 #, python-format
 msgid "Fixed amount on Sub Total"
-msgstr ""
+msgstr "Festbetrag auf Zwischensumme"
 
 #. module: sale_promotions
 #: sql_constraint:sale.order:0
 msgid "Order Reference must be unique !"
-msgstr ""
+msgstr "Bestellbezug muss eindeutig sein."
 
 #. module: sale_promotions
 #: view:promos.rules:0 field:promos.rules,description:0
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #. module: sale_promotions
 #: field:promos.rules.conditions.exps,serialised_expr:0
 msgid "Expression"
-msgstr ""
+msgstr "Ausdruck"
 
 #. module: sale_promotions
 #: field:promos.rules,coupon_code:0
 msgid "Coupon Code"
-msgstr ""
+msgstr "Kupon-Nummer"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:68
 #: selection:promos.rules.conditions.exps,comparator:0
 #, python-format
 msgid "is not in"
-msgstr ""
+msgstr "ist nicht aus"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Product Weight combination"
-msgstr ""
+msgstr "Kombination aus Produktgewichten"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Product SubTotal combination"
-msgstr ""
+msgstr "Kombination aus Produkt-Zwischensummen"
 
 #. module: sale_promotions
 #: help:sale.order.line,promotion_line:0
 msgid "Indicates if the line was created by promotions"
-msgstr ""
+msgstr "Zeigt an, ob diese Position durch eine Werbeaktion angelegt wurde"
 
 #. module: sale_promotions
 #: field:promos.rules,active:0
 msgid "Active"
-msgstr ""
+msgstr "Aktiv"
 
 #. module: sale_promotions
 #: selection:promos.rules,expected_logic_result:0
 msgid "True"
-msgstr ""
+msgstr "Wahr"
 
 #. module: sale_promotions
 #: view:promos.rules:0
 msgid "Coupon/Voucher Settings"
-msgstr ""
+msgstr "Kupon/Beleg-Einstellungen"
 
 #. module: sale_promotions
 #: view:promos.rules:0
 msgid "Promotions"
-msgstr ""
+msgstr "Werbeaktionen"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:76
 #: selection:promos.rules.actions,action_type:0
 #, python-format
 msgid "Buy X get Y free"
-msgstr ""
+msgstr "Kaufe X erhalte Y Kostenfrei"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Compute sub total of products"
-msgstr ""
+msgstr "Zwischensumme der Produkte"
 
 #. module: sale_promotions
 #: field:promos.rules.conditions.exps,comparator:0
 msgid "Comparator"
-msgstr ""
+msgstr "Komparator"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Tax Amount"
-msgstr ""
+msgstr "Steuerbetrag"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:42
 #: selection:promos.rules.conditions.exps,attribute:0
 #, python-format
 msgid "Untaxed Total"
-msgstr ""
+msgstr "Nettobetrag"
 
 #. module: sale_promotions
 #: field:promos.rules.conditions.exps,value:0
 msgid "Value"
-msgstr ""
+msgstr "Wert"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:61
 #: selection:promos.rules.conditions.exps,comparator:0
 #, python-format
 msgid "equals"
-msgstr ""
+msgstr "ist gleich"
 
 #. module: sale_promotions
 #: view:promos.rules:0 field:promos.rules,partner_categories:0
 msgid "Partner Categories"
-msgstr ""
+msgstr "Partnerkategorien"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Product Quantity combination"
-msgstr ""
+msgstr "Kombination aus Produktmengen"
 
 #. module: sale_promotions
 #: field:promos.rules,uses_per_partner:0
 msgid "Uses per Partner"
-msgstr ""
+msgstr "Verwendungen je Partner"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Compute sub total excluding products"
-msgstr ""
+msgstr "Zwischensumme unter Produktausschluss"
 
 #. module: sale_promotions
 #: field:promos.rules,logic:0
 msgid "Logic"
-msgstr ""
+msgstr "Logik"
 
 #. module: sale_promotions
 #: view:promos.rules:0
 msgid "If"
-msgstr ""
+msgstr "Wenn"
 
 #. module: sale_promotions
 #: field:promos.rules.actions,action_type:0
 msgid "Action"
-msgstr ""
+msgstr "Aktion"
 
 #. module: sale_promotions
 #: selection:promos.rules,expected_logic_result:0
 msgid "False"
-msgstr ""
+msgstr "Falsch"
 
 #. module: sale_promotions
 #: field:promos.rules.actions,promotion:0
 #: field:promos.rules.conditions.exps,promotion:0
 msgid "Promotion"
-msgstr ""
+msgstr "Werbeaktion"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Custom domain expression"
-msgstr ""
+msgstr "Indiv. Domäneneinstellungen"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:74
 #: selection:promos.rules.actions,action_type:0
 #, python-format
 msgid "Discount % on Sub Total"
-msgstr ""
+msgstr "Rabatt auf Zwischensumme"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:66
 #: selection:promos.rules.conditions.exps,comparator:0
 #, python-format
 msgid "less than or equal to"
-msgstr ""
+msgstr "ist weniger oder gleich"
 
 #. module: sale_promotions
 #: field:sale.order.line,promotion_line:0
 msgid "Promotion Line"
-msgstr ""
+msgstr "Werbeaktionsposition"
 
 #. module: sale_promotions
 #: field:promos.rules,shop:0
 msgid "Shop"
-msgstr ""
+msgstr "Laden"
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Total Amount"
-msgstr ""
+msgstr "Gesamtbetrag"
 
 #. module: sale_promotions
 #: selection:promos.rules,logic:0
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #. module: sale_promotions
 #: model:ir.model,name:sale_promotions.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "Verkaufsauftrag"
 
 #. module: sale_promotions
 #: field:promos.rules,expressions:0
 msgid "Expressions/Conditions"
-msgstr ""
+msgstr "Ausdrücke/Bedingungen"
 
 #. module: sale_promotions
 #: field:promos.rules,sequence:0 field:promos.rules.actions,sequence:0
 #: field:promos.rules.conditions.exps,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Reihenfolge"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:67
 #: selection:promos.rules.conditions.exps,comparator:0
 #, python-format
 msgid "is in"
-msgstr ""
+msgstr "ist aus"
 
 #. module: sale_promotions
 #: field:promos.rules.conditions.exps,attribute:0
 msgid "Attribute"
-msgstr ""
+msgstr "Attribut"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:65
 #: selection:promos.rules.conditions.exps,comparator:0
 #, python-format
 msgid "less than"
-msgstr ""
+msgstr "ist weniger als"
 
 #. module: sale_promotions
 #: view:promos.rules:0 field:promos.rules,actions:0
 msgid "Actions"
-msgstr ""
+msgstr "Aktionen"
 
 #. module: sale_promotions
 #: help:promos.rules,partner_categories:0
 msgid "Applicable to all if none is selected"
-msgstr ""
+msgstr "Alle zutreffend, wenn keine ausgewählt"
 
 #. module: sale_promotions
 #: model:ir.model,name:sale_promotions.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "Auftragsposition"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:63
 #: selection:promos.rules.conditions.exps,comparator:0
 #, python-format
 msgid "greater than"
-msgstr ""
+msgstr "ist größer als"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:72
 #: selection:promos.rules.actions,action_type:0
 #, python-format
 msgid "Discount % on Product"
-msgstr ""
+msgstr "Rabatt auf Produkt"
 
 #. module: sale_promotions
 #: help:promos.rules,coupon_used:0
 msgid "The number of times this coupon has been used."
-msgstr ""
+msgstr "Die Anzahl Verwendungen dieses Kupons."
 
 #. module: sale_promotions
 #: selection:promos.rules.conditions.exps,attribute:0
 msgid "Product Code in order"
-msgstr ""
+msgstr "Artikelnummer im Auftrag"
 
 #. module: sale_promotions
 #: view:promos.rules:0 view:promos.rules.conditions.expres
 #: view:promos.rules.conditions.exps:0
 msgid "Expressions"
-msgstr ""
+msgstr "Ausdrücke"
 
 #. module: sale_promotions
 #: code:addons/sale_promotions/models/rules.py:73
 #: selection:promos.rules.actions,action_type:0
 #, python-format
 msgid "Fixed amount on Product"
-msgstr ""
+msgstr "Festbetrag auf Produkte"
 
 #. module: sale_promotions
 #: selection:promos.rules,logic:0
 msgid "Any"
-msgstr ""
+msgstr "Beliebig"
 
 #. module: sale_promotions
 #: view:sale.order:0
 msgid "Apply Promotions"
-msgstr ""
+msgstr "Werbeaktion anwenden"
 
 #. module: sale_promotions
 #: field:promos.rules,from_date:0
 msgid "From Date"
-msgstr ""
+msgstr "Ab Datum"
